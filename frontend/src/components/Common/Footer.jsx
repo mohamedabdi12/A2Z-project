@@ -19,7 +19,7 @@ export default function Footer({ price }) {
                     <h2>Subtotal: ${price}</h2>
                     {showCheckoutButton ? (
                         <a href="/cart">
-                            <button class="btn">Cheak Your Cart</button>
+                            <button class="btn">Check Your Cart</button>
                         </a>
                     ) : (
                         <a href="/Shipping">
